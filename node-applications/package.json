@@ -1,0 +1,53 @@
+{
+  "author": "Rackspace US, Inc.",
+  "name": "tryfer",
+  "description": "Port of the tryfer Twisted/Python tracing library and Zipkin client",
+  "version": "0.2.13",
+  "main": "./index",
+  "scripts": {
+    "start": "USE_ZIPKIN=true appmetrics.js"
+  },
+  "contributors": [
+    {
+      "name": "Ying Li",
+      "email": "ying.li@rackspace.com",
+      "url": "https://github.com/cyli"
+    },
+    {
+      "name": "Matt Kaniaris",
+      "email": "matthew.kaniaris@rackspace.com",
+      "url": "http://kansface.com"
+    },
+    {
+      "name": "Tomaz Muraus",
+      "email": "tomaz.muraus@rackspace.com",
+      "url": "http://www.tomaz.me"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/racker/node-tryfer"
+  },
+  "dependencies": {
+    "@log4js-node/logstashudp": "^1.0.0",
+    "appmetrics-zipkin": "1.1.1",
+    "async": "0.1.22",
+    "body-parser": "^1.19.0",
+    "browser-process-hrtime": "^0.1.2",
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.1",
+    "log4js": "^4.1.1",
+    "log4js-logstash-tcp": "^1.0.8",
+    "node-fetch": "^2.5.0",
+    "request": "^2.88.0",
+    "rest": "^1.3.2",
+    "zipkin": "^0.17.1",
+    "zipkin-context-cls": "^0.11.0",
+    "zipkin-instrumentation-cujojs-rest": "^0.11.1",
+    "zipkin-instrumentation-express": "^0.11.1",
+    "zipkin-instrumentation-fetch": "^0.11.2",
+    "zipkin-instrumentation-request": "^0.17.1",
+    "zipkin-instrumentation-request-promise": "^0.17.1",
+    "zipkin-transport-http": "^0.11.2"
+  }
+}
