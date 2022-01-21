@@ -36,7 +36,7 @@
     "browser-process-hrtime": "^0.1.2",
     "express": "^4.16.4",
     "express-http-proxy": "^1.5.1",
-    "log4js": "^4.1.1",
+    "log4js": "^6.4.0",
     "log4js-logstash-tcp": "^1.0.8",
     "node-fetch": "^2.5.0",
     "request": "^2.88.0",
