@@ -31,7 +31,7 @@
   "dependencies": {
     "@log4js-node/logstashudp": "^1.0.0",
     "appmetrics-zipkin": "1.1.1",
-    "async": "0.1.22",
+    "async": "3.2.2",
     "body-parser": "^1.19.0",
     "browser-process-hrtime": "^0.1.2",
     "express": "^4.16.4",
